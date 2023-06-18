@@ -1,0 +1,142 @@
+
+*{
+    
+    margin: 0px;
+    padding: 0%;
+}
+/* .navbar::before{
+    content: "";
+    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    position: absolute;
+    width: 100%;
+    height: 1305px;
+
+    z-index:-1;
+} */
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 59px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.outerlink{
+    list-style: none;
+    margin-left: 60px;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+    letter-spacing: 1px;
+    color: aqua;
+}
+.link:hover{
+    color: burlywood;
+    text-shadow: 2px 2px black;
+}
+.li:visited{
+text-decoration: underline;
+
+}
+.quote{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+    height: 28em;
+    /* align-items: center; */
+    margin-top: 20px;
+    text-align: center;
+    
+    
+    
+}
+.quotebox{
+    
+    width: 27rem;
+    height: 19rem;
+    margin-left: 23px;
+    margin-top: 129px;
+    padding-top: 79px;
+    background: rgba(102, 69, 69, 0.3);
+    color: white;
+    font-family: 'Hahmlet', serif;
+}
+
+
+.mainquote{
+    font-size: x-large;
+    font-family: 'Bebas Neue', cursive;
+    
+    text-align: left;
+    text-shadow: 2px 2px black;
+    letter-spacing: 3px;
+    
+    
+}
+#fmain{
+    padding-left: 7rem;
+    letter-spacing: 10px;
+    
+}
+#smain{
+    padding-left: 5rem;
+    letter-spacing: 5px;
+
+}
+
+
+.vedio{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    
+}
+.bbox{
+ 
+    margin-top: 16px;
+    font-weight: bold;
+    height: 30px;
+    width: 112px;
+    background:rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    border: none;
+}
+#PARA{
+    margin-top: 20px;
+    width: 25rem;
+    margin-left: 15px;
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+} 
+.bbox:hover{
+    background:rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+
+}
+
+@media screen and (max-width : 480px){
+    .outerlink{
+        margin-left: -6px;
+    padding-right: 27px;
+    }
+    .vedio{
+        
+    width: 411px;
+
+    }
+    .quotebox{
+        margin-left: -16px;
+    }
+}
+
+

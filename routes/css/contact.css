@@ -1,0 +1,73 @@
+#contact_con{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 0px 500px;
+    padding:0px 10px;
+}
+#contact_con h2{
+    color : white;
+}
+#contact_con p{
+    color: #7d7d79f2;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+#contact_con h3{
+    color: #7d7d79f2; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+#contact_con input{
+   border-radius: 15px;
+   width: 500px;
+   padding: 50px 50px;
+   margin: 10px 0px;
+   border: 2px solid rgb(202, 159, 86);
+}
+#contact_con form{
+    margin-left: 100px;
+}
+#contact_con form button{
+    margin-left: 250px;
+    margin-top:  40px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#contact_con form button:hover{
+   background-color: rgb(233, 168, 27)
+}.navbar{
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: center;
+    height: 59px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.outerlink{
+    list-style: none;
+    margin-left: 60px;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+    letter-spacing: 1px;
+    color: aqua;
+}
+.link:hover{
+    color: burlywood;
+    text-shadow: 2px 2px black;
+}
+.li:visited{
+text-decoration: underline;
+
+}
